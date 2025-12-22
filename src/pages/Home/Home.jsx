@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import "./Home.css";
+import picture from "../../pic/picture1.jpg";
 
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <div className="Main">
+      <img src={picture} alt="hero" className="bg-img" />
+    </div>
+  );
 }
 
-export default Home
+export default Home;

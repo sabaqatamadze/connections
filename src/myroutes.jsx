@@ -14,9 +14,9 @@ function Myroutes() {
       <Route path="/" element={<Layout />}>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
+        <Route path="/packages" element={<Packages />} />
         <Route path="/package/:package_id" element={<Package />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/packages" element={<Packages />} />
         <Route path="*" element={<Error />} />
       </Route>
     </Routes>

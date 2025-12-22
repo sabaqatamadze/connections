@@ -1,0 +1,56 @@
+.Nav-bar {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  right: 50px;
+  z-index: 10;
+}
+
+.Nav-bar .Links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Nav-bar .Links .social {
+  display: flex;
+  gap: 15px;
+}
+
+.Nav-bar .Links .social a {
+  color: white;
+  font-size: 24px;
+}
+
+.Nav-bar .Links .contact {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  text-align: right;
+  color: white;
+  align-items: center;
+}
+
+.Nav-bar .Links .contact p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0;
+}
+
+.Nav-bar .Links .contact .Icon {
+  color: white;
+  font-size: 20px;
+}
+
+.Nav-bar .Pages {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 100px;
+}
+.Nav-bar .Pages a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
