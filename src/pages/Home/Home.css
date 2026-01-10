@@ -9,3 +9,42 @@
   height: 100%;
   object-fit: cover;
 }
+
+.Main .content {
+  position: absolute; /* 🔑 REQUIRED */
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.Main .content .hero-text {
+  font-size: 70px;
+  margin-bottom: 0;
+  color: white;
+}
+
+.Main .content .small-text {
+  font-size: 50px;
+  font-family: "Grape Nuts", cursive;
+  margin-top: 5px;
+  color: white;
+  -webkit-text-stroke: 1px white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.Main .bottom-context {
+  position: absolute; /* 🔑 REQUIRED */
+  top: 700px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Main .bottom-context .Buy {
+  font-size: 50px;
+  font-family: "Grape Nuts", cursive;
+  text-decoration: none;
+  color: white;
+  -webkit-text-stroke: 1px white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}

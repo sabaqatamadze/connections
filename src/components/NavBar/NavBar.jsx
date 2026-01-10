@@ -4,6 +4,7 @@ import { SlSocialFacebook } from "react-icons/sl";
 import { FaPhone } from "react-icons/fa6";
 import { MdMailOutline } from "react-icons/md";
 import "./NavBar.css";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -33,10 +34,10 @@ function NavBar() {
       </div>
 
       <div className="Pages">
-        <a href="/">Home</a>
-        <a href="/Packages">Packages</a>
-        <a href="/about">About Us</a>
-        <a href="/contact">Contact</a>
+        <Link to="/">Home</Link>
+        <Link to="/Packages">Packages</Link>
+        <Link to="/about">About Us</Link>
+        <Link to="/contact">Contact</Link>
       </div>
     </div>
   );
