@@ -1,0 +1,27 @@
+.Footer {
+  position: absolute;
+  bottom: 5px;
+  left: 50px;
+  right: 50px;
+  z-index: 10;
+}
+
+.Footer .Pages {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 100px;
+}
+.Footer .Pages a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.Footer .text {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  font-size: 14px;
+  margin-bottom: 5px;
+}

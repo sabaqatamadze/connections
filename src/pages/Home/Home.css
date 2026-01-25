@@ -1,13 +1,17 @@
 .Main {
-  position: relative; /* 🔑 REQUIRED */
+  position: relative;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh; /* use min-height instead of height */
 }
 
 .bg-img {
+  position: absolute; /* behind everything */
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  z-index: -1;
 }
 
 .Main .content {
@@ -35,7 +39,7 @@
 .Main .bottom-context {
   position: absolute; /* 🔑 REQUIRED */
   top: 700px;
-  left: 50%;
+  left: 49%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
