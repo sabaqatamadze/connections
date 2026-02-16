@@ -1,11 +1,23 @@
 .Main {
-  position: relative;
-  width: 100%;
-  min-height: 100vh; /* use min-height instead of height */
+  margin: 0;
+  padding: 0;
 }
 
-.bg-img {
-  position: absolute; /* behind everything */
+/* ---------- Hero Overlay ---------- */
+.Main .overlay {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical center */
+  align-items: center; /* horizontal center */
+  text-align: center;
+  overflow: hidden;
+}
+
+.Main .overlay .bg-img {
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -14,20 +26,17 @@
   z-index: -1;
 }
 
-.Main .content {
-  position: absolute; /* 🔑 REQUIRED */
-  top: 350px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+.Main .overlay .content {
+  /* remove margin-top; flexbox already centers vertically */
 }
-.Main .content .hero-text {
+
+.Main .overlay .content .hero-text {
   font-size: 70px;
   margin-bottom: 0;
   color: white;
 }
 
-.Main .content .small-text {
+.Main .overlay .content .small-text {
   font-size: 50px;
   font-family: "Grape Nuts", cursive;
   margin-top: 5px;
@@ -36,19 +45,152 @@
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.Main .bottom-context {
-  position: absolute; /* 🔑 REQUIRED */
-  top: 700px;
-  left: 49%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+.Main .overlay .bottom-context {
+  margin-top: 150px; /* spacing below hero text */
 }
 
-.Main .bottom-context .Buy {
+.Main .overlay .bottom-context .Buy {
   font-size: 50px;
   font-family: "Grape Nuts", cursive;
   text-decoration: none;
   color: white;
   -webkit-text-stroke: 1px white;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* ---------- Second Layer ---------- */
+.Main .secend-layer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* horizontal center */
+}
+
+/* Background image */
+.Main .secend-layer .sec-img {
+  width: 100%;
+  max-width: 100%;
+  height: 1000px;
+  object-fit: cover;
+  /* replace opacity to avoid affecting children */
+  opacity: 0.5;
+}
+
+/* Wrapper for title and destinations */
+.Main .secend-layer .sec-content {
+  position: relative; /* stays above background image */
+  z-index: 1; /* ensure above faded background */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Title inside sec-content */
+.Main .secend-layer .sec-content .title {
+  color: black;
+  font-size: 50px;
+  font-family: "Grape Nuts", cursive;
+  text-align: center;
+  margin-top: -890px; /* on top of image */
+}
+
+/* Destinations container inside sec-content */
+.Main .secend-layer .sec-content .Destinations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* center cards horizontally */
+  margin-top: 100px;
+  gap: 40px;
+}
+
+/* Individual destination card */
+.Main .secend-layer .sec-content .Destinations .Destination {
+  width: 365px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Destination image */
+
+.Main .secend-layer .sec-content .Destinations .Destination .img-container {
+  margin-bottom: 0;
+  width: 100%;
+  height: 342px;
+  object-fit: cover;
+}
+.Main
+  .secend-layer
+  .sec-content
+  .Destinations
+  .Destination
+  .img-container
+  .img {
+  width: 100%;
+  height: 342px;
+  object-fit: cover;
+}
+
+/* Destination content card */
+.Main
+  .secend-layer
+  .sec-content
+  .Destinations
+  .Destination
+  .Destination-content {
+  width: 90%;
+  padding: 0 18px 0 18px;
+  background-color: white; /* fully opaque */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Main
+  .secend-layer
+  .sec-content
+  .Destinations
+  .Destination
+  .Destination-content
+  .text-container {
+  margin: 0;
+}
+/* Destination text */
+.Main
+  .secend-layer
+  .sec-content
+  .Destinations
+  .Destination
+  .Destination-content
+  .text-container
+  .name {
+  font-family: "Grape Nuts", cursive;
+  margin-bottom: 0;
+  font-size: 24px;
+}
+
+.Main
+  .secend-layer
+  .sec-content
+  .Destinations
+  .Destination
+  .Destination-content
+  .text-container
+  .text {
+  margin-top: 3px;
+  width: 250px;
+  font-size: 16px;
+}
+
+.Main
+  .secend-layer
+  .sec-content
+  .Destinations
+  .Destination
+  .Destination-content
+  .price {
+  display: flex;
+  font-size: 20px;
 }
