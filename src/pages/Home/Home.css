@@ -26,10 +26,6 @@
   z-index: -1;
 }
 
-.Main .overlay .content {
-  /* remove margin-top; flexbox already centers vertically */
-}
-
 .Main .overlay .content .hero-text {
   font-size: 70px;
   margin-bottom: 0;
@@ -74,7 +70,7 @@
   height: 1000px;
   object-fit: cover;
   /* replace opacity to avoid affecting children */
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 /* Wrapper for title and destinations */
@@ -193,4 +189,83 @@
   .price {
   display: flex;
   font-size: 20px;
+}
+
+.Main .third-layer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+/* Fourth layer container */
+.Main .fourth-layer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 1000px; /* same as image height */
+}
+
+/* Background image */
+.Main .fourth-layer .fourth-img {
+  width: 100%;
+  height: 1000px;
+  object-fit: cover;
+}
+
+/* Content wrapper */
+.Main .fourth-layer .fourth-content {
+  position: absolute; /* now we can place content freely on the image */
+  top: 100px; /* near top of layer */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+/* Title */
+.Main .fourth-layer .fourth-content .title {
+  font-size: 50px;
+  font-family: "Grape Nuts", cursive;
+  color: white; /* make it visible over city image */
+  margin-bottom: 50px;
+}
+
+/* Boxes inside features */
+.Main .fourth-layer .fourth-content .features {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* Individual box */
+.Main .fourth-layer .fourth-content .features .box {
+  width: 250px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  justify-content: center;
+  align-items: center;
+  font-family: "Grape Nuts", cursive;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 50px 5px 50px;
+  font-size: 25px;
+}
+
+.Main .fourth-layer .fourth-content .features .box .icon {
+  margin-bottom: 5px;
+}
+
+.Main .fourth-layer .fourth-content .features .box .servise {
+  margin-top: 5px;
 }
