@@ -12,7 +12,7 @@ function Home() {
       {/* first layer */}
       <div className="first-layer">
         <img
-          src="https://res.cloudinary.com/djont7dcv/image/upload/v1769357451/picture1_ctqtuc.jpg"
+          src="https://res.cloudinary.com/djont7dcv/image/upload/v1772880101/manoj-sai-ram-413qG1ucR7c-unsplash_zohhoe.jpg"
           alt="hero"
           className="first-img"
         />
@@ -31,7 +31,7 @@ function Home() {
 
       <div className="secend-layer">
         <img
-          src="https://res.cloudinary.com/djont7dcv/image/upload/v1769357451/picture1_ctqtuc.jpg"
+          src="https://res.cloudinary.com/djont7dcv/image/upload/v1772880101/manoj-sai-ram-413qG1ucR7c-unsplash_zohhoe.jpg"
           alt="hero"
           className="sec-img"
         />
@@ -135,7 +135,7 @@ function Home() {
 
       <div className="fourth-layer">
         <img
-          src="https://res.cloudinary.com/djont7dcv/image/upload/v1769357451/picture1_ctqtuc.jpg"
+          src="https://res.cloudinary.com/djont7dcv/image/upload/v1772880101/manoj-sai-ram-413qG1ucR7c-unsplash_zohhoe.jpg"
           alt="background"
           className="fourth-img"
         />
@@ -185,7 +185,7 @@ function Home() {
 
       <div className="fifth-layer">
         <img
-          src="https://res.cloudinary.com/djont7dcv/image/upload/v1769357451/picture1_ctqtuc.jpg"
+          src="https://res.cloudinary.com/djont7dcv/image/upload/v1772880101/manoj-sai-ram-413qG1ucR7c-unsplash_zohhoe.jpg"
           alt="hero"
           className="fifth-img"
         />
