@@ -207,7 +207,7 @@ function Home() {
                   <h2 className="name">Canal Cruise</h2>
                   <p className="text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc vulputate libero et velit{" "}
+                    Nunc vulputate libero et velit
                   </p>
                 </div>
               </div>
@@ -227,7 +227,7 @@ function Home() {
                     <h2 className="name">Sailing</h2>
                     <p className="text">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nunc vulputate libero et velit{" "}
+                      Nunc vulputate libero et velit
                     </p>
                   </div>
                 </div>
@@ -246,7 +246,7 @@ function Home() {
                     <h2 className="name">Camping</h2>
                     <p className="text">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nunc vulputate libero et velit{" "}
+                      Nunc vulputate libero et velit
                     </p>
                   </div>
                 </div>
@@ -265,7 +265,7 @@ function Home() {
                     <h2 className="name">Hiking </h2>
                     <p className="text">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nunc vulputate libero et velit{" "}
+                      Nunc vulputate libero et velit
                     </p>
                   </div>
                 </div>
@@ -284,7 +284,7 @@ function Home() {
                     <h2 className="name">Scuba Diving</h2>
                     <p className="text">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nunc vulputate libero et velit{" "}
+                      Nunc vulputate libero et velit
                     </p>
                   </div>
                 </div>
