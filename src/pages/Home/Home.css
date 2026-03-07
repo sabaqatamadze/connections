@@ -3,20 +3,20 @@
   padding: 0;
 }
 
-/* ---------- Hero Overlay ---------- */
-.Main .overlay {
+/* ---------- first-layer ---------- */
+.Main .first-layer {
   position: relative;
   width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* vertical center */
-  align-items: center; /* horizontal center */
+  justify-content: center;
+  align-items: center;
   text-align: center;
   overflow: hidden;
 }
 
-.Main .overlay .bg-img {
+.Main .first-layer .first-img {
   position: absolute;
   top: 0;
   left: 0;
@@ -26,13 +26,13 @@
   z-index: -1;
 }
 
-.Main .overlay .content .hero-text {
+.Main .first-layer .content .hero-text {
   font-size: 70px;
   margin-bottom: 0;
   color: white;
 }
 
-.Main .overlay .content .small-text {
+.Main .first-layer .content .small-text {
   font-size: 50px;
   font-family: "Grape Nuts", cursive;
   margin-top: 5px;
@@ -41,11 +41,11 @@
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.Main .overlay .bottom-context {
-  margin-top: 150px; /* spacing below hero text */
+.Main .first-layer .bottom-context {
+  margin-top: 150px;
 }
 
-.Main .overlay .bottom-context .Buy {
+.Main .first-layer .bottom-context .Buy {
   font-size: 50px;
   font-family: "Grape Nuts", cursive;
   text-decoration: none;
@@ -60,7 +60,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center; /* horizontal center */
+  align-items: center;
 }
 
 /* Background image */
@@ -69,14 +69,12 @@
   max-width: 100%;
   height: 1000px;
   object-fit: cover;
-  /* replace opacity to avoid affecting children */
-  opacity: 0.8;
 }
 
 /* Wrapper for title and destinations */
 .Main .secend-layer .sec-content {
-  position: relative; /* stays above background image */
-  z-index: 1; /* ensure above faded background */
+  position: relative;
+  z-index: 1;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -85,18 +83,18 @@
 
 /* Title inside sec-content */
 .Main .secend-layer .sec-content .title {
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 50px;
   font-family: "Grape Nuts", cursive;
   text-align: center;
-  margin-top: -890px; /* on top of image */
+  margin-top: -890px;
 }
 
 /* Destinations container inside sec-content */
 .Main .secend-layer .sec-content .Destinations {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* center cards horizontally */
+  justify-content: center;
   margin-top: 100px;
   gap: 40px;
 }
@@ -138,7 +136,7 @@
   .Destination-content {
   width: 90%;
   padding: 0 18px 0 18px;
-  background-color: white; /* fully opaque */
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -190,7 +188,7 @@
   display: flex;
   font-size: 20px;
 }
-
+/* ---------- Third Layer ---------- */
 .Main .third-layer {
   width: 100%;
   height: 100vh;
@@ -198,7 +196,7 @@
   justify-content: center;
 }
 
-/* Fourth layer container */
+/* ---------- Fourth Layer ---------- */
 .Main .fourth-layer {
   position: relative;
   width: 100%;
@@ -206,7 +204,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  min-height: 1000px; /* same as image height */
+  min-height: 1000px;
 }
 
 /* Background image */
@@ -218,8 +216,8 @@
 
 /* Content wrapper */
 .Main .fourth-layer .fourth-content {
-  position: absolute; /* now we can place content freely on the image */
-  top: 100px; /* near top of layer */
+  position: absolute;
+  top: 100px;
   left: 50%;
   transform: translateX(-50%);
   width: 90%;
@@ -233,7 +231,7 @@
 .Main .fourth-layer .fourth-content .title {
   font-size: 50px;
   font-family: "Grape Nuts", cursive;
-  color: white; /* make it visible over city image */
+  color: white;
   margin-bottom: 50px;
 }
 
@@ -268,4 +266,224 @@
 
 .Main .fourth-layer .fourth-content .features .box .servise {
   margin-top: 5px;
+  margin-bottom: 75px;
+}
+
+/* ---------- Fifth Layer ---------- */
+
+.Main .fifth-layer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 1000px;
+}
+/* Background image */
+.Main .fifth-layer .fifth-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+/* Content wrapper */
+.Main .fifth-layer .fifth-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Main .fifth-layer .fifth-content .title {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-family: "Grape Nuts", cursive;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.Main .fifth-layer .fifth-content .Adventures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 70px;
+  gap: 40px;
+}
+
+/* Individual Main-Adventure card */
+.Main .fifth-layer .fifth-content .Adventures .Main-Adventure {
+  width: 365px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Main-Adventure image */
+
+.Main .fifth-layer .fifth-content .Adventures .Main-Adventure .img-container {
+  margin-bottom: 0;
+  width: 500px;
+  height: 600px;
+  object-fit: cover;
+}
+.Main
+  .fifth-layer
+  .fifth-content
+  .Adventures
+  .Main-Adventure
+  .img-container
+  .img {
+  width: 500px;
+  height: 600px;
+  object-fit: cover;
+}
+
+/* Main-Adventure content card */
+.Main
+  .fifth-layer
+  .fifth-content
+  .Adventures
+  .Main-Adventure
+  .Main-Adventure-content {
+  width: 465px;
+  padding: 0 17px 0 18px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.Main
+  .fifth-layer
+  .fifth-content
+  .Adventures
+  .Main-Adventure
+  .Main-Adventure-content
+  .text-container {
+  margin: 0;
+}
+/* Main-Adventure text */
+.Main
+  .fifth-layer
+  .fifth-content
+  .Adventures
+  .Main-Adventure
+  .Main-Adventure-content
+  .text-container
+  .name {
+  font-family: "Grape Nuts", cursive;
+  margin-bottom: 0;
+  font-size: 24px;
+}
+
+.Main
+  .fifth-layer
+  .fifth-content
+  .Adventures
+  .Main-Adventure
+  .Main-Adventure-content
+  .text-container
+  .text {
+  margin-top: 3px;
+  font-size: 16px;
+}
+
+.Main .fifth-layer .fifth-content .Adventures .Adventure-container {
+  display: grid;
+  grid-template-columns: repeat(2, min-content);
+  justify-content: space-between;
+  row-gap: 20px;
+}
+
+/* Individual Adventure card */
+.Main .fifth-layer .fifth-content .Adventures .Adventure-container .Adventure {
+  width: 365px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100px;
+}
+
+/* Adventure image */
+
+.Main
+  .fifth-layer
+  .fifth-content
+  .Adventures
+  .Adventure-container
+  .Adventure
+  .img-container {
+  margin-bottom: 0;
+  width: 400px;
+  height: 238px;
+  object-fit: cover;
+}
+.Main
+  .fifth-layer
+  .fifth-content
+  .Adventures
+  .Adventure-container
+  .Adventure
+  .img-container
+  .img {
+  width: 400px;
+  height: 238px;
+  object-fit: cover;
+}
+
+/* Adventure content card */
+.Main
+  .fifth-layer
+  .fifth-content
+  .Adventures
+  .Adventure-container
+  .Adventure
+  .Adventure-content {
+  width: 365px;
+  padding: 0 18px 0 17px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Main
+  .fifth-layer
+  .fifth-content
+  .Adventures
+  .Adventure-container
+  .Adventure
+  .Adventure-content
+  .text-container {
+  margin: 0;
+}
+/* Adventure text */
+.Main
+  .fifth-layer
+  .fifth-content
+  .Adventures
+  .Adventure-container
+  .Adventure
+  .Adventure-content
+  .text-container
+  .name {
+  font-family: "Grape Nuts", cursive;
+  margin-bottom: 0;
+  font-size: 24px;
+}
+
+.Main
+  .fifth-layer
+  .fifth-content
+  .Adventures
+  .Adventure-container
+  .Adventure
+  .Adventure-content
+  .text-container
+  .text {
+  margin-top: 3px;
+  font-size: 16px;
 }
