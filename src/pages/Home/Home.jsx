@@ -206,8 +206,7 @@ function Home() {
                 <div className="text-container">
                   <h2 className="name">Canal Cruise</h2>
                   <p className="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc vulputate libero et velit
+                    Enjoy a relaxing boat ride through scenic canals while discovering beautiful views and historic landmarks.
                   </p>
                 </div>
               </div>
@@ -226,8 +225,7 @@ function Home() {
                   <div className="text-container">
                     <h2 className="name">Sailing</h2>
                     <p className="text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nunc vulputate libero et velit
+                      Experience the freedom of the open water while sailing across clear seas and feeling the fresh ocean breeze.
                     </p>
                   </div>
                 </div>
@@ -245,8 +243,7 @@ function Home() {
                   <div className="text-container">
                     <h2 className="name">Camping</h2>
                     <p className="text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nunc vulputate libero et velit
+                      Spend peaceful nights in nature, surrounded by forests, fresh air, and the calm of the outdoors.
                     </p>
                   </div>
                 </div>
@@ -264,8 +261,7 @@ function Home() {
                   <div className="text-container">
                     <h2 className="name">Hiking </h2>
                     <p className="text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nunc vulputate libero et velit
+                      Explore breathtaking trails and mountains while enjoying nature, adventure, and unforgettable views.
                     </p>
                   </div>
                 </div>
@@ -283,8 +279,7 @@ function Home() {
                   <div className="text-container">
                     <h2 className="name">Scuba Diving</h2>
                     <p className="text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Nunc vulputate libero et velit
+                     Dive beneath the ocean surface and discover colorful coral reefs, marine life, and underwater beauty.
                     </p>
                   </div>
                 </div>
