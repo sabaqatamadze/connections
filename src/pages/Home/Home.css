@@ -111,7 +111,7 @@
 
 .Main .secend-layer .sec-content .Destinations .Destination .img-container {
   margin-bottom: 0;
-  width: 100%;
+  width: 365px;
   height: 342px;
   object-fit: cover;
 }
@@ -122,7 +122,7 @@
   .Destination
   .img-container
   .img {
-  width: 100%;
+  width: 365px;
   height: 342px;
   object-fit: cover;
 }
@@ -134,12 +134,12 @@
   .Destinations
   .Destination
   .Destination-content {
-  width: 90%;
-  padding: 0 18px 0 18px;
+  width: 365px;
+  height: 123px;
   background-color: white;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
 .Main
@@ -149,7 +149,8 @@
   .Destination
   .Destination-content
   .text-container {
-  margin: 0;
+  margin-left: 19px;
+  margin-right: 19px;
 }
 /* Destination text */
 .Main
@@ -442,11 +443,9 @@
   .Adventure-container
   .Adventure
   .Adventure-content {
-  width: 365px;
-  padding: 0 18px 0 17px;
+  width: 400px;
   background-color: white;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -458,7 +457,8 @@
   .Adventure
   .Adventure-content
   .text-container {
-  margin: 0;
+  margin-left: 19px;
+  margin-right: 19px;
 }
 /* Adventure text */
 .Main

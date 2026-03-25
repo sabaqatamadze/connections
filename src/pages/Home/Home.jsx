@@ -52,7 +52,7 @@ function Home() {
                 <div className="text-container">
                   <h2 className="name">Venice</h2>
                   <p className="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    A beautiful historic city in Italy known for its canals, romantic gondolas, and stunning architecture.
                   </p>
                 </div>
 
@@ -71,7 +71,7 @@ function Home() {
                 <div className="text-container">
                   <h2 className="name">San Paolo</h2>
                   <p className="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    A vibrant Brazilian city known for its rich culture, delicious cuisine, and impressive modern skyline.
                   </p>
                 </div>
 
@@ -90,7 +90,7 @@ function Home() {
                 <div className="text-container">
                   <h2 className="name">Barbados</h2>
                   <p className="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    A tropical Caribbean island known for its crystal-clear waters, white sandy beaches, and relaxing atmosphere.
                   </p>
                 </div>
 
@@ -109,7 +109,7 @@ function Home() {
                 <div className="text-container">
                   <h2 className="name">Cyprus</h2>
                   <p className="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    A Mediterranean island rich in history, sunny beaches, and ancient archaeological sites.
                   </p>
                 </div>
 
