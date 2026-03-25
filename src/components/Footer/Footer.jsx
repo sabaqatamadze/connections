@@ -12,7 +12,7 @@ function Footer() {
       <div className="Pages">
         <Link to="/">Home</Link>
         <Link to="/Packages">Packages</Link>
-        <Link to="/about">About Us</Link>
+        <Link to="/about">About us</Link>
         <Link to="/contact">Contact</Link>
       </div>
 
