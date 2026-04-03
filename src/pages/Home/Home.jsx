@@ -14,7 +14,7 @@ function Home() {
         <img
           src="https://res.cloudinary.com/djont7dcv/image/upload/v1772880101/manoj-sai-ram-413qG1ucR7c-unsplash_zohhoe.jpg"
           alt="hero"
-          className="first-img"
+          className="background"
         />
         <div className="content">
           <h1 className="hero-text">Your Dream Vacation Awaits</h1>
@@ -29,11 +29,11 @@ function Home() {
 
       {/* second layer */}
 
-      <div className="secend-layer">
+      <div className="second-layer">
         <img
           src="https://res.cloudinary.com/djont7dcv/image/upload/v1772880101/manoj-sai-ram-413qG1ucR7c-unsplash_zohhoe.jpg"
           alt="hero"
-          className="sec-img"
+          className="background"
         />
 
         <div className="sec-content">
@@ -137,7 +137,7 @@ function Home() {
         <img
           src="https://res.cloudinary.com/djont7dcv/image/upload/v1772880101/manoj-sai-ram-413qG1ucR7c-unsplash_zohhoe.jpg"
           alt="background"
-          className="fourth-img"
+          className="background"
         />
 
         <div className="fourth-content">
@@ -187,7 +187,7 @@ function Home() {
         <img
           src="https://res.cloudinary.com/djont7dcv/image/upload/v1772880101/manoj-sai-ram-413qG1ucR7c-unsplash_zohhoe.jpg"
           alt="hero"
-          className="fifth-img"
+          className="background"
         />
 
         <div className="fifth-content">

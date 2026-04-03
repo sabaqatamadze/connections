@@ -16,7 +16,7 @@
   overflow: hidden;
 }
 
-.Main .first-layer .first-img {
+.Main .first-layer .background {
   position: absolute;
   top: 0;
   left: 0;
@@ -55,7 +55,7 @@
 }
 
 /* ---------- Second Layer ---------- */
-.Main .secend-layer {
+.Main .second-layer {
   position: relative;
   width: 100%;
   display: flex;
@@ -64,7 +64,7 @@
 }
 
 /* Background image */
-.Main .secend-layer .sec-img {
+.Main .second-layer .background {
   width: 100%;
   max-width: 100%;
   height: 1000px;
@@ -72,7 +72,7 @@
 }
 
 /* Wrapper for title and destinations */
-.Main .secend-layer .sec-content {
+.Main .second-layer .sec-content {
   position: relative;
   z-index: 1;
   width: 100%;
@@ -82,7 +82,7 @@
 }
 
 /* Title inside sec-content */
-.Main .secend-layer .sec-content .title {
+.Main .second-layer .sec-content .title {
   color: rgb(255, 255, 255);
   font-size: 50px;
   font-family: "Grape Nuts", cursive;
@@ -91,7 +91,7 @@
 }
 
 /* Destinations container inside sec-content */
-.Main .secend-layer .sec-content .Destinations {
+.Main .second-layer .sec-content .Destinations {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -100,7 +100,7 @@
 }
 
 /* Individual destination card */
-.Main .secend-layer .sec-content .Destinations .Destination {
+.Main .second-layer .sec-content .Destinations .Destination {
   width: 365px;
   display: flex;
   flex-direction: column;
@@ -109,14 +109,14 @@
 
 /* Destination image */
 
-.Main .secend-layer .sec-content .Destinations .Destination .img-container {
+.Main .second-layer .sec-content .Destinations .Destination .img-container {
   margin-bottom: 0;
   width: 365px;
   height: 342px;
   object-fit: cover;
 }
 .Main
-  .secend-layer
+  .second-layer
   .sec-content
   .Destinations
   .Destination
@@ -129,7 +129,7 @@
 
 /* Destination content card */
 .Main
-  .secend-layer
+  .second-layer
   .sec-content
   .Destinations
   .Destination
@@ -143,7 +143,7 @@
 }
 
 .Main
-  .secend-layer
+  .second-layer
   .sec-content
   .Destinations
   .Destination
@@ -154,7 +154,7 @@
 }
 /* Destination text */
 .Main
-  .secend-layer
+  .second-layer
   .sec-content
   .Destinations
   .Destination
@@ -167,7 +167,7 @@
 }
 
 .Main
-  .secend-layer
+  .second-layer
   .sec-content
   .Destinations
   .Destination
@@ -180,7 +180,7 @@
 }
 
 .Main
-  .secend-layer
+  .second-layer
   .sec-content
   .Destinations
   .Destination
@@ -209,7 +209,7 @@
 }
 
 /* Background image */
-.Main .fourth-layer .fourth-img {
+.Main .fourth-layer .background {
   width: 100%;
   height: 1000px;
   object-fit: cover;
@@ -281,7 +281,7 @@
   min-height: 1000px;
 }
 /* Background image */
-.Main .fifth-layer .fifth-img {
+.Main .fifth-layer .background {
   position: absolute;
   top: 0;
   left: 0;

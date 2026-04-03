@@ -5,10 +5,6 @@ import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <div className='Footer'>
-
-      
-
-
       <div className="Pages">
         <Link to="/">Home</Link>
         <Link to="/Packages">Packages</Link>
