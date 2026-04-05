@@ -7,17 +7,21 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 function Contact() {
   let Gmail = "Gmail";
+  let Gmail1 = "rightconnections90@gmail.com"
   const [copied, setCopied] = useState(Gmail);
   const GmailCopy = () => {
-    navigator.clipboard.writeText(Gmail);
+    navigator.clipboard.writeText(Gmail1);
     setCopied("Copied!");
+    
   };
 
-  let Number = "579714884";
+  let Number = "Number";
+  let Number1 = "+995 598 56 50 02"
   const [NumCopied, setNumCopied] = useState(Number);
   const PhoneCopy = () => {
-    navigator.clipboard.writeText(Number);
+    navigator.clipboard.writeText(Number1);
     setNumCopied("Copied!");
+    
   };
 
   return (
