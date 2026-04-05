@@ -79,32 +79,6 @@ function Contact() {
               {NumCopied}
             </button>
           </div>
-          <div className="Contact">
-            <p className="text">
-              <FaFacebook />
-            </p>
-            <a
-              href="https://www.facebook.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text"
-            >
-              Facebook
-            </a>
-          </div>
-          <div className="Contact">
-            <p className="text">
-              <FaFacebook />
-            </p>
-            <a
-              href="https://www.facebook.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text"
-            >
-              Facebook
-            </a>
-          </div>
         </div>
       </div>
     </div>
