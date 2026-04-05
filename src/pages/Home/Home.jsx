@@ -147,10 +147,7 @@ function Home() {
               <p
                 className="icon"
                 style={{
-                  transform: "rotate(180deg)",
-                  fontSize: "28px",
-                  marginTop: "20px",
-                }}
+                  transform: "rotate(180deg)",}}
               >
                 <TbPlaystationTriangle />
               </p>
@@ -160,7 +157,8 @@ function Home() {
               </p>
             </div>
             <div className="box">
-              <p className="icon">
+              <p 
+              className="icon">
                 <LuCrown />
               </p>
               <h1 className="servise">SERVISE</h1>
