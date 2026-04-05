@@ -31,7 +31,7 @@ function Contact() {
       <div className="Contacts">
         <div className="Contacts1">
           <div className="Contact">
-            <p className="text">
+            <p className="icon">
               <FaFacebook />
             </p>
             <a
@@ -44,7 +44,7 @@ function Contact() {
             </a>
           </div>
           <div className="Contact">
-            <p className="text">
+            <p className="icon">
               <FaInstagram />
             </p>
             <a
@@ -57,7 +57,7 @@ function Contact() {
             </a>
           </div>
           <div className="Contact1">
-            <p className="text">
+            <p className="icon">
               <SiGmail />
             </p>
             <button onClick={() => GmailCopy()} className="text">
@@ -72,7 +72,7 @@ function Contact() {
             </button>
           </div>
           <div className="Contact">
-            <p className="text">
+            <p className="icon">
               <FaPhoneAlt />
             </p>
             <button onClick={() => PhoneCopy()} className="text">
