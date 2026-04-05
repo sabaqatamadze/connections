@@ -22,7 +22,7 @@ function Home() {
         </div>
         <div className="bottom-context">
           <Link to="/packages" className="Buy">
-            Buy now
+            Book your trip
           </Link>
         </div>
       </div>

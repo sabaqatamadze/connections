@@ -271,8 +271,9 @@
   margin-bottom: 40px;
 }
 .Main .fourth-layer .fourth-content .features .box .text {
+  width: 150px;
   margin-top: 0;
-  margin-left: 65px;
+  margin: 0 auto;
 }
 
 /* ---------- Fifth Layer ---------- */
