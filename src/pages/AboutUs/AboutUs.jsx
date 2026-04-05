@@ -94,7 +94,6 @@ const AboutUs = () => {
 
       {/* Footer */}
       <footer>
-        <p>© 2026 Connection Travel | All Rights Reserved</p>
       </footer>
 
     </div>
