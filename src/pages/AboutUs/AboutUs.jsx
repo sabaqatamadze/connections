@@ -5,13 +5,6 @@ const AboutUs = () => {
   return (
     <div>
 
-      {/* Navbar */}
-      <div className="navbar">
-        <a href="#">Home</a>
-        <a href="#">Tours</a>
-        <a href="#">Gallery</a>
-        <a href="#">Contact</a>
-      </div>
 
       {/* Hero Section */}
       <div className="hero">
@@ -39,7 +32,7 @@ const AboutUs = () => {
         </div>
 
         {/* What We Do */}
-        <div className="section reverse">
+        <div className="section">
           <img
             src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
             alt="nature"
