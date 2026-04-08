@@ -1,6 +1,6 @@
 import axios from "../config/axios";
 
-const API_KEY = "ef09e8d442a03f39553f19a71ad2676e"; // Or load from frontend config
+const API_KEY = "ef09e8d442a03f39553f19a71ad2676e";
 
 async function getAllPackage() {
   const resp = await axios.get("packages", {

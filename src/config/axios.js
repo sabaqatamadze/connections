@@ -1,6 +1,6 @@
 import axios from "axios";
 
 const config = axios.create({
-  baseURL: "https://dummyjson.com/",
+  baseURL: "",
 });
 export default config;
