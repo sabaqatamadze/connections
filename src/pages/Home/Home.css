@@ -189,6 +189,7 @@
   display: flex;
   font-size: 20px;
 }
+
 /* ---------- Third Layer ---------- */
 .Main .third-layer {
   width: 100%;
@@ -311,6 +312,7 @@
   font-size: 50px;
   font-family: "Grape Nuts", cursive;
   text-align: center;
+  margin-top: 30px;
   margin-bottom: 5px;
 }
 .Main .fifth-layer .fifth-content .Adventures {
@@ -496,4 +498,98 @@
   width: 380px;
   margin-top: 3px;
   font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .Main .first-layer .content .hero-text {
+    font-size: 36px;
+  }
+
+  .Main .first-layer .content .small-text {
+    font-size: 24px;
+  }
+
+  .Main .first-layer .bottom-context .Buy {
+    font-size: 28px;
+  }
+  .Main .second-layer .background {
+    width: 100%;
+    height: 2250px;
+  }
+  .Main .second-layer .sec-content .title {
+    margin-top: -2200px;
+  }
+  .Main .fourth-layer .background {
+    width: 100%;
+    height: 1600px;
+  }
+  .Main .fourth-layer .fourth-content {
+    top: 50px;
+  }
+
+  .Main .fifth-layer .background {
+    width: 100%;
+    height: 2100px;
+  }
+
+  .Main .fifth-layer .fifth-content {
+    height: 2100px;
+  }
+
+  .Main .fifth-layer .fifth-content .Adventures {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Main .fifth-layer .fifth-content .Adventures .Main-Adventure .img-container,
+  .Main
+    .fifth-layer
+    .fifth-content
+    .Adventures
+    .Main-Adventure
+    .img-container
+    .img {
+    width: 400px;
+    height: 238px;
+  }
+
+  .Main
+    .fifth-layer
+    .fifth-content
+    .Adventures
+    .Main-Adventure
+    .Main-Adventure-content {
+    width: 400px;
+  }
+
+  .Main .fifth-layer .fifth-content .Adventures .Adventure-container {
+    grid-template-columns: 1fr;
+  }
+
+  .Main
+    .fifth-layer
+    .fifth-content
+    .Adventures
+    .Adventure-container
+    .Adventure {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Main .first-layer .content .hero-text {
+    font-size: 55px;
+  }
+
+  .Main .first-layer .content .small-text {
+    font-size: 40px;
+  }
+
+  .Main .second-layer .sec-content .Destinations {
+    gap: 25px;
+  }
+
+  .Main .second-layer .sec-content .Destinations .Destination {
+    width: 300px;
+  }
 }

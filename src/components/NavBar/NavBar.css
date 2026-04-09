@@ -54,3 +54,40 @@
   font-size: 25px;
   text-decoration: none;
 }
+
+.Nav-bar .res-icon {
+  display: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .Nav-bar .res-icon {
+    display: block;
+    font-size: 24px;
+    color: white;
+  }
+  .Nav-bar .Pages,
+  .Nav-bar .Links .social,
+  .Nav-bar .Links .contact {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    width: 350px;
+    height: 60vh;
+    top: -800px;
+    left: 0;
+    z-index: 10;
+  }
+  .Nav-bar .Pages a,
+  .Nav-bar .Links .social a,
+  .Nav-bar .Links .contact {
+    color: black;
+  }
+  .Nav-bar .Pages.active {
+    top: 50%;
+  }
+}

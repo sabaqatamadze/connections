@@ -29,3 +29,9 @@
   margin-top: 12px;
   font-size: 14px;
 }
+
+@media (max-width: 768px) {
+  .Footer .Pages {
+    display: none;
+  }
+}

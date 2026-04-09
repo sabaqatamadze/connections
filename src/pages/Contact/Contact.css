@@ -58,7 +58,6 @@
   border: none;
   background-color: transparent;
   font-size: 24px;
- 
 }
 .PageContact .Contacts .Contacts1 .Contact .icon {
   display: flex;
@@ -68,7 +67,6 @@
   border: none;
   background-color: transparent;
   font-size: 24px;
- 
 }
 
 .PageContact .Contacts .Contact1 .text {
@@ -98,4 +96,12 @@
   border: none;
   background-color: transparent;
   font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .PageContact .Contacts1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 }
