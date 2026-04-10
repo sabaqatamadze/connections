@@ -6,7 +6,7 @@ import { LuCrown } from "react-icons/lu";
 import { FaCompassDrafting } from "react-icons/fa6";
 import { TbPlaystationTriangle } from "react-icons/tb";
 
-function Home() {
+function Home() {  
   return (
     <div className="Main">
       {/* first layer */}
@@ -43,77 +43,71 @@ function Home() {
             <div className="Destination">
               <div className="img-container">
                 <img
-                  src="https://res.cloudinary.com/djont7dcv/image/upload/v1772878370/cb81d951-7b21-4c45-a407-f6b9d10c429c_damiano-baschiera-hFXZ5cNfkOk-unsplash_pnss82.avif"
+                  src="https://res.cloudinary.com/djont7dcv/image/upload/v1775839258/View_of_Tbilisi_from_Tabori_Church_2023-10-08-2_e3fuos.jpg"
                   alt="hero"
                   className="img"
                 />
               </div>
               <div className="Destination-content">
                 <div className="text-container">
-                  <h2 className="name">Venice</h2>
+                  <h2 className="name">Tbilisi</h2>
                   <p className="text">
-                    A beautiful historic city in Italy known for its canals, romantic gondolas, and stunning architecture.
+                    The capital of Georgia famous for its colorful Old Town, historic sulfur baths, and vibrant culture.
                   </p>
                 </div>
 
-                <p className="price">$201</p>
               </div>
             </div>
             <div className="Destination">
               <div className="img-container">
                 <img
-                  src="https://res.cloudinary.com/djont7dcv/image/upload/v1772878811/Maldives-1170x650_iomcgt.jpg"
+                  src="https://res.cloudinary.com/djont7dcv/image/upload/v1775840039/Batumi_Boulevard_Colonnades__cropped_hfgotg.jpg"
                   alt="hero"
                   className="img"
                 />
               </div>
               <div className="Destination-content">
                 <div className="text-container">
-                  <h2 className="name">San Paolo</h2>
+                  <h2 className="name">Batumi</h2>
                   <p className="text">
-                    A vibrant Brazilian city known for its rich culture, delicious cuisine, and impressive modern skyline.
+                    A modern Black Sea resort city known for its beaches, seaside boulevard, and unique architecture.
                   </p>
                 </div>
 
-                <p className="price">$249</p>
               </div>
             </div>
             <div className="Destination">
               <div className="img-container">
                 <img
-                  src="https://res.cloudinary.com/djont7dcv/image/upload/v1772878886/4-2023-12-05T140951.795_xxvrc9.jpg"
+                  src="https://res.cloudinary.com/djont7dcv/image/upload/v1775839894/Stepantsminda-Kazbegi_s1wk3t.jpg"
                   alt="hero"
                   className="img"
                 />
               </div>
               <div className="Destination-content">
                 <div className="text-container">
-                  <h2 className="name">Barbados</h2>
+                  <h2 className="name">Kazbegi</h2>
                   <p className="text">
-                    A tropical Caribbean island known for its crystal-clear waters, white sandy beaches, and relaxing atmosphere.
+                    A breathtaking mountain destination home to the iconic Gergeti Trinity Church and stunning Caucasus views.
                   </p>
                 </div>
-
-                <p className="price">$299</p>
               </div>
             </div>
             <div className="Destination">
               <div className="img-container">
                 <img
-                  src="https://res.cloudinary.com/djont7dcv/image/upload/v1772879032/johnny-africa-_ZX0S27D3fw-unsplash-scaled_yb7shl.webp"
+                  src="https://res.cloudinary.com/djont7dcv/image/upload/v1775840008/Ushguli_Svaneti_Georgia_jz3qub.jpg"
                   alt="hero"
                   className="img"
                 />
               </div>
               <div className="Destination-content">
                 <div className="text-container">
-                  <h2 className="name">Cyprus</h2>
+                  <h2 className="name">Svaneti</h2>
                   <p className="text">
-                    A Mediterranean island rich in history, sunny beaches, and ancient archaeological sites.
+                    A historic mountain region known for medieval stone towers, dramatic landscapes, and ancient culture.
                   </p>
                 </div>
-
-                <p className="price">$239</p>
               </div>
             </div>
           </div>
@@ -123,12 +117,11 @@ function Home() {
       {/* third layer */}
 
       <div className="third-layer">
-        <ReactPlayer
-          url="https://www.youtube.com/watch?v=KAQUhK0-GJc"
-          controls={true}
-          width="100%"
-          height="100%"
-        />
+        <iframe
+      width="100%"
+      src="https://www.youtube.com/embed/KAQUhK0-GJc"
+      frameBorder="0"
+     ></iframe>
       </div>
 
       {/* fourth layer */}
@@ -153,7 +146,7 @@ function Home() {
               </p>
               <h1 className="servise">GUARANTEE</h1>
               <p className="text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                We ensure safe, reliable, and high-quality travel experiences. 
               </p>
             </div>
             <div className="box">
@@ -163,7 +156,7 @@ function Home() {
               </p>
               <h1 className="servise">SERVISE</h1>
               <p className="text">
-                Nunc vulputate libero et velit interdum, ac aliquet odio.
+                Our dedicated team provides personalized support from planning to the end of your trip.
               </p>
             </div>
             <div className="box">
@@ -172,7 +165,7 @@ function Home() {
               </p>
               <h1 className="servise">EXPERIENCE</h1>
               <p className="text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                With years of travel expertise, we know how to create unforgettable journeys.
               </p>
             </div>
           </div>
@@ -195,16 +188,16 @@ function Home() {
             <div className="Main-Adventure">
               <div className="img-container">
                 <img
-                  src="https://res.cloudinary.com/djont7dcv/image/upload/v1772878370/cb81d951-7b21-4c45-a407-f6b9d10c429c_damiano-baschiera-hFXZ5cNfkOk-unsplash_pnss82.avif"
+                  src="https://res.cloudinary.com/djont7dcv/image/upload/v1775841402/batumi-sea-coast_eifxkv.webp"
                   alt="hero"
                   className="img"
                 />
               </div>
               <div className="Main-Adventure-content">
                 <div className="text-container">
-                  <h2 className="name">Canal Cruise</h2>
+                  <h2 className="name">Black Sea Cruise (Batumi)</h2>
                   <p className="text">
-                    Enjoy a relaxing boat ride through scenic canals while discovering beautiful views and historic landmarks.
+                    Relax on the Black Sea while enjoying coastal views, sunset skies, and fresh sea air in Batumi.
                   </p>
                 </div>
               </div>
@@ -225,23 +218,23 @@ function Home() {
                     <p className="text">
                       Experience the freedom of the open water while sailing across clear seas and feeling the fresh ocean breeze.
                     </p>
-                  </div>
+                  </div> 
                 </div>
               </div>
 
               <div className="Adventure">
                 <div className="img-container">
                   <img
-                    src="https://res.cloudinary.com/djont7dcv/image/upload/v1772879369/MUFHH_250620_exidxc.jpg"
+                    src="https://res.cloudinary.com/djont7dcv/image/upload/v1775841215/ed_vkgrpa.jpg"
                     alt="hero"
                     className="img"
                   />
                 </div>
                 <div className="Adventure-content">
                   <div className="text-container">
-                    <h2 className="name">Camping</h2>
+                    <h2 className="name">Wine & Nature Camping (Kakheti)</h2>
                     <p className="text">
-                      Spend peaceful nights in nature, surrounded by forests, fresh air, and the calm of the outdoors.
+                      Spend peaceful nights in Georgia’s wine region surrounded by vineyards, hills, bonfires, and calm nature.
                     </p>
                   </div>
                 </div>
@@ -268,16 +261,16 @@ function Home() {
               <div className="Adventure">
                 <div className="img-container">
                   <img
-                    src="https://res.cloudinary.com/djont7dcv/image/upload/v1772879516/best-scuba-diving-in-fiji-2-scaled_ya7c71.jpg"
+                    src="https://res.cloudinary.com/djont7dcv/image/upload/v1775841315/borjomi-sulfur-pools-3_tvkmd1.webp"
                     alt="hero"
                     className="img"
                   />
                 </div>
                 <div className="Adventure-content">
                   <div className="text-container">
-                    <h2 className="name">Scuba Diving</h2>
-                    <p className="text">
-                     Dive beneath the ocean surface and discover colorful coral reefs, marine life, and underwater beauty.
+                    <h2 className="name">Hot Springs Experience (Borjomi)</h2>
+                    <p className="text">                      
+                      Relax in natural mineral hot springs surrounded by forests and mountains-perfect for recovery and peace.
                     </p>
                   </div>
                 </div>
@@ -286,6 +279,7 @@ function Home() {
           </div>
         </div>
       </div>
+      
     </div>
   );
 }
