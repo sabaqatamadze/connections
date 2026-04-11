@@ -704,14 +704,14 @@
   .Main .fifth-layer .fifth-content .Adventures .Adventure-container {
     grid-template-columns: 1fr;
   }
-
   .Main
     .fifth-layer
     .fifth-content
     .Adventures
     .Adventure-container
-    .Adventure {
-    margin-left: 0;
+    .Adventure
+    .img-container {
+    width: 395px;
   }
 
   .Main
@@ -733,7 +733,7 @@
     .Adventure-container
     .Adventure
     .Adventure-content {
-    width: 390px;
+    width: 395px;
   }
 
   .Main
