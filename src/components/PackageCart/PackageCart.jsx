@@ -1,7 +1,7 @@
 import React from 'react'
-import "./Package.css";
+import "./PackageCart.css";
 
-function Package() {
+function PackageCart() {
   return (
     <div className="pricing-container">
       <div className="pricing-cards-wrapper">
@@ -28,4 +28,4 @@ function Package() {
   )
 }
 
-export default Package
+export default PackageCart
