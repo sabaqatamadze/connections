@@ -80,7 +80,7 @@
 }
 
 .Main .second-layer .sec-content .title {
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: 50px;
   font-family: "Grape Nuts", cursive;
   text-align: center;
@@ -93,6 +93,7 @@
   justify-content: center;
   margin-top: 100px;
   gap: 40px;
+  color: black;
 }
 
 .Main .second-layer .sec-content .Destinations .Destination {
@@ -344,6 +345,7 @@
   .Main-Adventure
   .Main-Adventure-content
   .text-container {
+  color: black;
   margin: 0;
 }
 
@@ -378,6 +380,7 @@
   grid-template-columns: repeat(2, min-content);
   justify-content: space-between;
   row-gap: 20px;
+  color: black;
 }
 
 .Main .fifth-layer .fifth-content .Adventures .Adventure-container .Adventure {

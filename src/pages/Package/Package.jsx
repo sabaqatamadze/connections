@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Package.css";
-import { getSinglePackage } from "../../helper/helper";
+//import { getSinglePackage } from "../../helper/helper";
 import { useParams } from "react-router-dom";
 
 
