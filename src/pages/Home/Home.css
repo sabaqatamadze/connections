@@ -224,13 +224,12 @@
 }
 
 .Main .fourth-layer .fourth-content .features .box {
-  width: 350px;
+  width: 360px;
   height: 400px;
   background-color: rgba(255, 255, 255, 0.8);
   color: black;
   justify-content: center;
   align-items: center;
-  font-family: "Grape Nuts", cursive;
   font-size: 18px;
   text-align: center;
   border-radius: 10px;
@@ -244,10 +243,13 @@
 }
 
 .Main .fourth-layer .fourth-content .features .box .servise {
+  margin-left: 0;
   margin-top: 5px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  font-family: "Grape Nuts", cursive;
 }
 .Main .fourth-layer .fourth-content .features .box .text {
+  font-size: 22px;
   width: 150px;
   margin-top: 0;
   margin: 0 auto;

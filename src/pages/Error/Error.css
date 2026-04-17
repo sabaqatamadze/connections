@@ -1,0 +1,37 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2000");
+}
+
+.error {
+  width: 90%;
+  margin: 250px auto;
+  height: 45vh;
+}
+.error .link .home {
+  color: rgba(0, 0, 0, 0.6);
+}
+.error .text {
+  text-align: center;
+}
+.error .text .not-found {
+  font-size: 8rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.error .text .back-home-page {
+  margin-bottom: 100px;
+}
+.error .text .back-home-page {
+  text-decoration: none;
+  padding: 15px 40px 15px 40px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 700px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.error .text .back-to-home {
+  margin-bottom: 50px;
+}

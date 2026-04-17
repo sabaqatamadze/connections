@@ -1,7 +1,7 @@
 import React from 'react'
 import "./PackageCart.css";
 
-function PackageCart() {
+function PackageCart(id, title, description, features , footer) {
   return (
     <div className="pricing-container">
       <div className="pricing-cards-wrapper">
@@ -10,18 +10,20 @@ function PackageCart() {
             {/* Your Icon Here */}
           </div>
 
+
           <h2 className="card-title">{title}</h2>
 
-          <ul className="card-features">
+          <p className='card-text'>{description}</p>
 
-            {features.map((item, index) => (
-              <li key={index}>
-                {item.name}
-              </li>
+
+
+          <ul className="card-features">
+            {features?.map((item, index) => (
+              <li key={index}>{item.name}</li>
             ))}
           </ul>
 
-          <button className="card-button">{footerText}</button>
+          <Link to={`/product/${id}`} className="card-button">Contact now</Link>
         </div>
       </div>
     </div>

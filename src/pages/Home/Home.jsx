@@ -86,7 +86,7 @@ function Home() {
               </div>
               <div className="Destination-content">
                 <div className="text-container">
-                  <h2 className="name">Kazbegi</h2>
+                  <h2 className="name">KUTAISI</h2>
                   <p className="text">
                     A breathtaking mountain destination home to the iconic Gergeti Trinity Church and stunning Caucasus views.
                   </p>
@@ -144,9 +144,9 @@ function Home() {
               >
                 <TbPlaystationTriangle />
               </p>
-              <h1 className="servise">GUARANTEE</h1>
+              <h1 className="servise">CONNECTION</h1>
               <p className="text">
-                We ensure safe, reliable, and high-quality travel experiences. 
+                We bring people together  entrepreneurs, investors, and visionaries. 
               </p>
             </div>
             <div className="box">
@@ -156,7 +156,7 @@ function Home() {
               </p>
               <h1 className="servise">SERVISE</h1>
               <p className="text">
-                Our dedicated team provides personalized support from planning to the end of your trip.
+                From airport VIP transfers to private helicopter journeys, every detail is designed around you.
               </p>
             </div>
             <div className="box">
@@ -165,7 +165,7 @@ function Home() {
               </p>
               <h1 className="servise">EXPERIENCE</h1>
               <p className="text">
-                With years of travel expertise, we know how to create unforgettable journeys.
+                We don’t just organize trips  we create opportunities, partnerships, and unforgettable experiences
               </p>
             </div>
           </div>
@@ -195,7 +195,7 @@ function Home() {
               </div>
               <div className="Main-Adventure-content">
                 <div className="text-container">
-                  <h2 className="name">Black Sea Cruise (Batumi)</h2>
+                  <h2 className="name">ATV gun shoot</h2>
                   <p className="text">
                     Relax on the Black Sea while enjoying coastal views, sunset skies, and fresh sea air in Batumi.
                   </p>
@@ -232,7 +232,7 @@ function Home() {
                 </div>
                 <div className="Adventure-content">
                   <div className="text-container">
-                    <h2 className="name">Wine & Nature Camping (Kakheti)</h2>
+                    <h2 className="name">Traditional trips</h2>
                     <p className="text">
                       Spend peaceful nights in Georgia’s wine region surrounded by vineyards, hills, bonfires, and calm nature.
                     </p>
@@ -250,7 +250,7 @@ function Home() {
                 </div>
                 <div className="Adventure-content">
                   <div className="text-container">
-                    <h2 className="name">Hiking </h2>
+                    <h2 className="name">Georgian taste</h2>
                     <p className="text">
                       Explore breathtaking trails and mountains while enjoying nature, adventure, and unforgettable views.
                     </p>
@@ -268,7 +268,7 @@ function Home() {
                 </div>
                 <div className="Adventure-content">
                   <div className="text-container">
-                    <h2 className="name">Hot Springs Experience (Borjomi)</h2>
+                    <h2 className="name">Qusiness & investment connections</h2>
                     <p className="text">                      
                       Relax in natural mineral hot springs surrounded by forests and mountains-perfect for recovery and peace.
                     </p>

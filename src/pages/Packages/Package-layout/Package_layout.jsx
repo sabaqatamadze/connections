@@ -22,10 +22,8 @@ const Package_layout= () => {
               key={el.id}
               id={el.id}
               title={el.title}
-              category={el.category}
-              thumbnail={el.thumbnail}
-              price={el.price}
-              discountPercentage={el.discountPercentage}
+              description={id.description}
+              features={id.features}
             />
           ))}
         </ProductsLayout>
