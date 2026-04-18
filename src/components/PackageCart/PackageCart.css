@@ -7,18 +7,11 @@
 }
 
 /* Container for the whole page */
-.pricing-section {
-  background-color: #0d0d0d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 60px 20px;
-}
 
 /* Flex wrapper to ensure cards match height */
 
 /* Individual Card */
-.pricing-card {
+.mainPart .pricing-card {
   background-color: #161619;
   border-radius: 28px;
   padding: 45px 30px;
@@ -31,26 +24,19 @@
   position: relative;
 }
 
-.pricing-card:hover {
+.mainPart .pricing-card:hover {
   transform: translateY(-15px);
 }
 
 /* Typography & Spacing */
-.card-title {
+.mainPart .pricing-card .card-header .card-title {
   font-size: 1.3rem;
   color: #efefef;
   margin-bottom: 10px;
   text-align: center;
 }
 
-.card-price {
-  font-size: 3.2rem;
-  font-weight: 800;
-  color: #fff;
-  text-align: center;
-}
-
-.card-description {
+.mainPart .pricing-card .card-header .card-description {
   font-size: 0.9rem;
   color: #666; /* Subtle grey for description */
   text-align: center;
@@ -59,13 +45,13 @@
 }
 
 /* Features List */
-.card-features {
+.mainPart .pricing-card .card-features {
   list-style: none;
   padding: 0;
   flex-grow: 1; /* Pushes the button to the bottom */
 }
 
-.feature-item {
+.mainPart .pricing-card .card-features .feature-item {
   color: #888;
   padding: 12px 0;
   text-align: center;
@@ -73,12 +59,12 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.05); /* Divider lines */
 }
 
-.feature-item:last-child {
+.mainPart .pricing-card .card-features .feature-item:last-child {
   border-bottom: none;
 }
 
 /* Button */
-.card-button {
+.mainPart .pricing-card .card-footer .card-button {
   display: block;
   width: 100%;
   padding: 15px;
@@ -94,18 +80,13 @@
 
 /* Large Desktop / Monitor (1580px) */
 @media (max-width: 768px) {
-  .pricing-section {
-    flex-direction: column;
-    padding: 20px;
-  }
-
   .mainPart {
     width: 100%;
     margin: 0 0 30px 0;
     justify-content: center;
   }
 
-  .pricing-card {
+  .mainPart .pricing-card {
     width: 90%;
     max-width: 400px;
     height: auto;

@@ -22,12 +22,8 @@ function Package() {
 
   return (
     <div className="package">
-      <img
-        src="https://res.cloudinary.com/djont7dcv/image/upload/v1772880101/manoj-sai-ram-413qG1ucR7c-unsplash_zohhoe.jpg"
-        alt="hero"
-        className="bg-img"
-      />
-      <h3>{packageData.title}</h3>
+      <div className="package-container">
+          <h3>{packageData.title}</h3>
       <p>{packageData.description}</p>
       <ul className="card-features">
         {packageData.features?.map((item, index) => (
@@ -36,6 +32,7 @@ function Package() {
           </li>
         ))}
       </ul>
+      </div>
     </div>
   );
 }

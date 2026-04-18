@@ -1,13 +1,12 @@
 import React from 'react';
 import "./PackageCart.css";
 
-function PackageCart({ id, title, price, description, features}) {
+function PackageCart({ id, title, description, features}) {
   return (
     <div className="mainPart">
     <div className="pricing-card">
       <div className="card-header">
         <h2 className="card-title">{title}</h2>
-        <div className="card-price">{price}</div>
         <p className="card-description">{description}</p>
       </div>
 
