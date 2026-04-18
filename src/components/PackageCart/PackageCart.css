@@ -6,11 +6,6 @@
   margin-right: 25px;
 }
 
-/* Container for the whole page */
-
-/* Flex wrapper to ensure cards match height */
-
-/* Individual Card */
 .mainPart .pricing-card {
   background-color: #161619;
   border-radius: 28px;
@@ -18,7 +13,7 @@
   width: 400px;
   height: 620px;
   display: flex;
-  flex-direction: column; /* Vertical stack */
+  flex-direction: column;
   border: 2px solid transparent;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   position: relative;
@@ -28,7 +23,6 @@
   transform: translateY(-15px);
 }
 
-/* Typography & Spacing */
 .mainPart .pricing-card .card-header .card-title {
   font-size: 1.3rem;
   color: #efefef;
@@ -38,17 +32,16 @@
 
 .mainPart .pricing-card .card-header .card-description {
   font-size: 0.9rem;
-  color: #666; /* Subtle grey for description */
+  color: #666;
   text-align: center;
   line-height: 1.4;
   height: 142px;
 }
 
-/* Features List */
 .mainPart .pricing-card .card-features {
   list-style: none;
   padding: 0;
-  flex-grow: 1; /* Pushes the button to the bottom */
+  flex-grow: 1;
 }
 
 .mainPart .pricing-card .card-features .feature-item {
@@ -56,14 +49,13 @@
   padding: 12px 0;
   text-align: center;
   font-size: 0.95rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05); /* Divider lines */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .mainPart .pricing-card .card-features .feature-item:last-child {
   border-bottom: none;
 }
 
-/* Button */
 .mainPart .pricing-card .card-footer .card-button {
   display: block;
   width: 100%;
@@ -76,9 +68,6 @@
   color: white;
 }
 
-/* --- Responsive Breakpoints --- */
-
-/* Large Desktop / Monitor (1580px) */
 @media (max-width: 768px) {
   .mainPart {
     width: 100%;

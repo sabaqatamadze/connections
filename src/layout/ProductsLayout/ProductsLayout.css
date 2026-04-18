@@ -20,6 +20,13 @@
 @media (max-width: 880px) {
   .products-layout .products-container {
     grid-template-columns: 1fr;
-    height: auto;
+    height: 4000px;
+  }
+}
+
+@media (max-width: 768px) {
+  .products-layout .products-container {
+    grid-template-columns: 1fr;
+    height: 4000px;
   }
 }
