@@ -1,13 +1,13 @@
 import axios from "../config/axios";
 
-async function getAllPackage() {
-  const resp = await axios.get("packages");
+async function getProducts() {
+  const resp = await axios.get("getProducts");
   return resp.data;
 }
 
-async function getSinglePackage(product_id) {
-  const resp = await axios.get(`packages/${product_id}`);
+async function getProduct(product_id) {
+  const resp = await axios.get(`getProduct/${product_id}`);
   return resp.data;
 }
 
-export { getAllPackage, getSinglePackage };
+export { getProducts, getProduct };

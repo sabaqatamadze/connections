@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 function Error() {
   return (
+    <div className="main">
     <div className="error">
       <div className="link">
-        <span className="home">Home</span> / <span>404-Error</span>
       </div>
       <div className="text">
         <p className="not-found">404 Not Found</p>
@@ -18,6 +18,7 @@ function Error() {
           Back to home page
         </Link>
       </div>
+    </div>
     </div>
   )
 }

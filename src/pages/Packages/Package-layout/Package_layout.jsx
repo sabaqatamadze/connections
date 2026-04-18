@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-//import { getAllProducts } from "../../../helper/helper";
+import { getProducts } from "../../../helper/helper";
 import ProductsLayout from "../../../layout/ProductsLayout/ProductsLayout";
 import PackageCart from "../../../components/PackageCart/PackageCart";
 
@@ -7,7 +7,7 @@ const Package_layout= () => {
   const [products, setProducts] = useState();
 
   useEffect(() => {
-    getAllProducts(0, 8).then((resp) => setProducts(resp.products));
+    getProducts(0, 8).then((resp) => setProducts(resp.products));
   }, []);
   return (
     <>

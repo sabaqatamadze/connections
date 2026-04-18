@@ -1,6 +1,6 @@
 import axios from "axios";
 
 const config = axios.create({
-  baseURL: "",
+  baseURL: "https://connections-backend-ytpd.onrender.com",
 });
 export default config;
