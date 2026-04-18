@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from "react";
-import { getProducts } from "../../../helper/helper";
 import ProductsLayout from "../../../layout/ProductsLayout/ProductsLayout";
 import PackageCart from "../../../components/PackageCart/PackageCart";
+import { getProducts } from "../../../helper/helper";
 
-const Package_layout= () => {
+const Package_layout = () => {
   const [products, setProducts] = useState();
 
   useEffect(() => {
-    getProducts(0, 8).then((resp) => setProducts(resp.products));
+    getProducts().then((resp) => setProducts(resp));
   }, []);
+
   return (
     <>
       {products?.length === 0 ? (
@@ -19,11 +20,11 @@ const Package_layout= () => {
         <ProductsLayout>
           {products.map((el) => (
             <PackageCart
-              key={el.id}
-              id={el.id}
+              key={el._id}
+              id={el._id}
               title={el.title}
-              description={id.description}
-              features={id.features}
+              description={el.description}
+              features={el.features}
             />
           ))}
         </ProductsLayout>

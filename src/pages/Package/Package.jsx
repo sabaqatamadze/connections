@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Package.css";
-//import { getSinglePackage } from "../../helper/helper";
+import { getProduct  } from "../../helper/helper";
 import { useParams } from "react-router-dom";
 
 
@@ -12,7 +12,7 @@ function Package() {
   useEffect(() => {
     setIsLoading(true);
 
-    getSinglePackage(package_id)
+    getProduct (package_id)
       .then((resp) => setPackageData(resp))
       .finally(() => setIsLoading(false));
   }, [package_id]);

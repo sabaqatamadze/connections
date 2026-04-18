@@ -1,33 +1,32 @@
-import React from 'react'
+import React from 'react';
 import "./PackageCart.css";
 
-function PackageCart(id, title, description, features , footer) {
+function PackageCart({ id, title, price, description, features}) {
   return (
-    <div className="pricing-container">
-      <div className="pricing-cards-wrapper">
-        <div className="pricing-card theme-blue">
-          <div className="card-icon">
-            {/* Your Icon Here */}
-          </div>
+    <div className="mainPart">
+    <div className="pricing-card">
+      <div className="card-header">
+        <h2 className="card-title">{title}</h2>
+        <div className="card-price">{price}</div>
+        <p className="card-description">{description}</p>
+      </div>
 
+      <ul className="card-features">
+        {features?.map((item, index) => (
+          <li key={index} className="feature-item">
+            {item.name}
+          </li>
+        ))}
+      </ul>
 
-          <h2 className="card-title">{title}</h2>
-
-          <p className='card-text'>{description}</p>
-
-
-
-          <ul className="card-features">
-            {features?.map((item, index) => (
-              <li key={index}>{item.name}</li>
-            ))}
-          </ul>
-
-          <Link to={`/product/${id}`} className="card-button">Contact now</Link>
-        </div>
+      <div className="card-footer">
+        <a href={`/package/${id}`} className="card-button">
+          Contact now
+        </a>
       </div>
     </div>
-  )
+    </div>
+  );
 }
 
-export default PackageCart
+export default PackageCart;
