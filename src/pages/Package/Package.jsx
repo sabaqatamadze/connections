@@ -29,7 +29,13 @@ function Package() {
       />
       <h3>{packageData.title}</h3>
       <p>{packageData.description}</p>
-      <p>${packageData.price}</p>
+      <ul className="card-features">
+        {packageData.features?.map((item, index) => (
+          <li key={index} className="feature-item">
+            {item.name}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
