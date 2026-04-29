@@ -1,5 +1,5 @@
-import React from 'react'
-import "./Packages.css"
+import React from 'react';
+import "./Packages.css";
 import PackageLayout from '../../layout/PackageLayout/PackageLayout';
 
 function Packages() {
