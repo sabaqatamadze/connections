@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import Layout from "./layout/Layout.jsx";
 import Home from "./pages/Home/Home.Jsx";
 import AboutUs from "./pages/AboutUs/AboutUs.jsx";
 import Package from "./pages/Package/Package.jsx";
