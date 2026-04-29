@@ -1,13 +1,13 @@
 import React from 'react'
 import "./Packages.css";
-import Package_layout from './Package-layout/Package_layout';
+import PackageLayout from './PackageLayout/PackageLayout';
 
 function Packages() {
   return (
     <div className='Packages'>
       <img src="https://res.cloudinary.com/djont7dcv/image/upload/v1772880101/manoj-sai-ram-413qG1ucR7c-unsplash_zohhoe.jpg" alt="hero" className="bg-img" />
       <div>
-        <Package_layout className="package-layout"/>
+        <PackageLayout className="package-layout"/>
       </div>
     </div>
   )

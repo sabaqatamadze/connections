@@ -1,10 +1,10 @@
-import { useState } from "react";
-import PhoneInput from "react-phone-input-2";
+import React, {  useState } from "react";
+import "./Package.css";
 import "react-phone-input-2/lib/style.css";
 import emailjs from "@emailjs/browser";
-import "./Package.css";
+import PhoneInput from "react-phone-input-2";
 
-function App() {
+function Package() {
   const [Phone, setPhone] = useState("");
 
   const sendEmail = () => {
@@ -66,4 +66,13 @@ function App() {
   );
 }
 
-export default App;
+export default Package;
+
+
+
+ 
+
+ 
+
+
+
