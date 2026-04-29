@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import PackageCart from "../../../components/PackageCart/PackageCart";
-import { getProducts } from "../../../helper/helper";
-import ProductsLayout from "../../../layout/ProductsLayout/ProductsLayout";
+import PackageCart from "../../components/PackageCart/PackageCart";
+import { getProducts } from "../../helper/helper";
+import ProductsLayout from "../ProductsLayout/ProductsLayout";
 
 const PackageLayout = () => {
   const [products, setProducts] = useState();
