@@ -1,12 +1,12 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./layout/Layout.jsx";
-import Home from "./pages/Home/Home.Jsx";
+import Home from "./pages/Home/Home.jsx";
 import AboutUs from "./pages/AboutUs/AboutUs.jsx";
 import Package from "./pages/Package/Package.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
 import Error from "./pages/Error/Error.jsx";
-import Packages from "./pages/Packages/Packages.Jsx";
+import Packages from "./pages/Packages/Packages.jsx";
 
 function Myroutes() {
   return (
