@@ -1,5 +1,6 @@
 import React from 'react';
 import "./PackageCart.css";
+import { Link } from 'react-router-dom';
 
 function PackageCart({ id, title, description, features}) {
   return (
@@ -19,9 +20,9 @@ function PackageCart({ id, title, description, features}) {
       </ul>
 
       <div className="card-footer">
-        <a href={`/package/${id}`} className="card-button">
+        <Link to="/package" className="card-button">
           Contact now
-        </a>
+        </Link>
       </div>
     </div>
     </div>

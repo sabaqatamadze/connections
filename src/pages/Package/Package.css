@@ -20,3 +20,49 @@
   height: 45vh;
   text-align: center;
 }
+
+.react-tel-input .form-control {
+  width: 100%;
+  height: 50px;
+  background: #f4f4f6;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #555;
+}
+
+.phone-input {
+  align-items: center;
+  color: black;
+}
+
+.react-tel-input .flag-dropdown {
+  background: transparent;
+  border: none;
+  border-radius: 8px 0 0 8px;
+}
+
+/* The Button Styling */
+.package-container button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background-color: #7d7d8c;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.package-container button:hover {
+  background-color: #000000;
+}
+
+.package-container p {
+  margin: 5px 0;
+  color: #333;
+  font-weight: 500;
+}

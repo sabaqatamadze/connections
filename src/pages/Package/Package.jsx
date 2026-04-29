@@ -1,49 +1,57 @@
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
+import emailjs from "@emailjs/browser";
 import "./Package.css";
-import { getProduct  } from "../../helper/helper";
-import { useParams } from "react-router-dom";
 
+function App() {
+  const [phone, setPhone] = useState("");
 
-function Package() {
-  const { package_id } = useParams();
-  const [packageData, setPackageData] = useState(null);
-  const [isLoading, setIsLoading] = useState(true);
+  const sendEmail = () => {
+    if (phone.length < 10) {
+      alert("Please enter a valid phone number");
+      return;
+    }
 
-  useEffect(() => {
-    setIsLoading(true);
-
-    getProduct (package_id)
-      .then((resp) => setPackageData(resp))
-      .finally(() => setIsLoading(false));
-  }, [package_id]);
-
-  if (isLoading) return <h1>Loading...</h1>;
-  if (!packageData) return <h1>Package not found</h1>;
+    emailjs
+      .send(
+        "service_7a714ks",
+        "template_h4elgdo",
+        { message: phone },
+        "nGp5VXVKkePv-ryaA"
+      )
+      .then(
+        () => {
+          alert("Phone number sent successfully!");
+          setPhone(""); 
+        },
+        (error) => {
+          alert("Failed to send: " + error.text);
+        }
+      );
+  };
 
   return (
     <div className="package">
       <div className="package-container">
-          <h3>{packageData.title}</h3>
-      <p>{packageData.description}</p>
-      <ul className="card-features">
-        {packageData.features?.map((item, index) => (
-          <li key={index} className="feature-item">
-            {item.name}
-          </li>
-        ))}
-      </ul>
+        <p>Contact Us</p>
+        <p style={{ fontWeight: "bold", fontSize: "1.2rem" }}>
+          +995 598 56 50 02
+        </p>
+        <p style={{ color: "#888", margin: "10px 0" }}>or</p>
+
+        <PhoneInput
+          country={"ge"}
+          value={phone}
+          onChange={(value) => setPhone(value)}
+          placeholder="(555) 123-4567"
+          className="phone-input"
+        />
+
+        <button onClick={sendEmail}>Add Phone Number</button>
       </div>
     </div>
   );
 }
 
-export default Package;
-
-
-
- 
-
- 
-
-
-
+export default App;
