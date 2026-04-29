@@ -5,25 +5,35 @@ import emailjs from "@emailjs/browser";
 import "./Package.css";
 
 function App() {
-  const [phone, setPhone] = useState("");
+  const [Phone, setPhone] = useState("");
 
   const sendEmail = () => {
-    if (phone.length < 10) {
+    if (Phone.length < 10) {
       alert("Please enter a valid phone number");
       return;
     }
+
+    const cleaned = Phone.replace(/\D/g, "");
+
+    const formatted = cleaned.replace(
+      /(\d{3})(\d{2})(\d{3})(\d{3})/,
+      "$1 $2 $3 $4"
+    );
+
 
     emailjs
       .send(
         "service_7a714ks",
         "template_h4elgdo",
-        { message: phone },
+        {
+          phone: formatted,      
+          phone_raw: cleaned    
+        },
         "nGp5VXVKkePv-ryaA"
       )
       .then(
         () => {
-          alert("Phone number sent successfully!");
-          setPhone(""); 
+          setPhone("");
         },
         (error) => {
           alert("Failed to send: " + error.text);
@@ -35,14 +45,16 @@ function App() {
     <div className="package">
       <div className="package-container">
         <p>Contact Us</p>
+
         <p style={{ fontWeight: "bold", fontSize: "1.2rem" }}>
           +995 598 56 50 02
         </p>
+
         <p style={{ color: "#888", margin: "10px 0" }}>or</p>
 
         <PhoneInput
           country={"ge"}
-          value={phone}
+          value={Phone}
           onChange={(value) => setPhone(value)}
           placeholder="(555) 123-4567"
           className="phone-input"
