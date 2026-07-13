@@ -113,7 +113,7 @@ const App = () => {
           
           <div className="image-column">
             <img 
-              src="https://images.unsplash.com/photo-1530103862676-de889243a426?auto=format&fit=crop&q=80&w=800" 
+              src="https://res.cloudinary.com/djont7dcv/image/upload/v1783967804/images_z8euq8.jpg" 
               alt="Group of people sharing a meal outdoors" 
               className="polaroid-image wide-image"
             />

@@ -49,6 +49,7 @@
   border: none;
   background-color: transparent;
   font-size: 24px;
+  cursor: pointer;
 }
 .PageContact .Contacts .Contact1 .icon {
   display: flex;
