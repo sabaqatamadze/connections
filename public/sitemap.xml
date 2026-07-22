@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://connections-frontend-tau.vercel.app/</loc>
+    <loc>https://connectionsge.com</loc>
+  </url>  
+  <url>
+    <loc>https://connectionsge.com/Packages</loc>
   </url>
   <url>
-    <loc>https://connections-frontend-tau.vercel.app/Packages</loc>
+    <loc>https://connectionsge.com/about</loc>
   </url>
   <url>
-    <loc>https://connections-frontend-tau.vercel.app/about</loc>
+    <loc>https://connectionsge.com/contact</loc>
   </url>
   <url>
-    <loc>https://connections-frontend-tau.vercel.app/contact</loc>
-  </url>
-  <url>
-    <loc>https://connections-frontend-tau.vercel.app/package</loc>
+    <loc>https://connectionsge.com/package</loc>
   </url>    
 </urlset>
