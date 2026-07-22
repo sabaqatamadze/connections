@@ -22,14 +22,14 @@ function NavBar() {
       <div className="Links">
         <div className="social"> 
           <a
-          href="https://www.instagram.com/"
+          href="https://www.instagram.com/the_connectionss?igsh=d3dvdGx4emtoZWoy&utm_source=qr"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaInstagram  />
         </a>
         <a
-          href="https://www.facebook.com/"
+          href="https://www.facebook.com/profile.php?id=61592185824116&rdid=ETIaj136RAabpmRb&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Kxrk8oBVf%2F#"
           target="_blank"
           rel="noopener noreferrer"
         >
