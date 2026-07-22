@@ -7,21 +7,19 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 function Contact() {
   let Gmail = "Gmail";
-  let Gmail1 = "rightconnections90@gmail.com"
+  let Gmail1 = "rightconnections90@gmail.com";
   const [copied, setCopied] = useState(Gmail);
   const GmailCopy = () => {
     navigator.clipboard.writeText(Gmail1);
     setCopied("Copied!");
-    
   };
 
   let Number = "Number";
-  let Number1 = "+995 598 56 50 02"
+  let Number1 = "+995 598 56 50 02";
   const [NumCopied, setNumCopied] = useState(Number);
   const PhoneCopy = () => {
     navigator.clipboard.writeText(Number1);
     setNumCopied("Copied!");
-    
   };
 
   return (
@@ -80,7 +78,15 @@ function Contact() {
               <FaPhoneAlt />
             </p>
             <button onClick={() => PhoneCopy()} className="text">
-              {NumCopied}
+              <a
+                href="https://www.whatsapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                {NumCopied}
+              </a>
             </button>
           </div>
         </div>
