@@ -37,7 +37,7 @@ function NavBar() {
         </a>
         </div>
         <div className="contact">
-          <p><FaPhone  className="Icon"/>+995 598 56 50 02</p>
+          <p><FaPhone  className="Icon"/>+995 551 51 83 51</p>
           <p><MdMailOutline className="Icon"/>rightconnections90@gmail.com</p>
 
         </div>

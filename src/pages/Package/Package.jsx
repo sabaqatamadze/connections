@@ -47,7 +47,7 @@ function Package() {
         <p>Contact Us</p>
 
         <p style={{ fontWeight: "bold", fontSize: "1.2rem" }}>
-          +995 598 56 50 02
+          +995 551 51 83 51
         </p>
 
         <p style={{ color: "#888", margin: "10px 0" }}>or</p>
