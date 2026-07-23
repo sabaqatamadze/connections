@@ -15,7 +15,7 @@ function Contact() {
   };
 
   let Number = "Number";
-  let Number1 = "+995 598 56 50 02";
+  let Number1 = "+995 551 51 83 51";
   const [NumCopied, setNumCopied] = useState(Number);
   const PhoneCopy = () => {
     navigator.clipboard.writeText(Number1);
