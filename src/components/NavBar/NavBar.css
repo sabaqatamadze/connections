@@ -46,8 +46,6 @@
   font-size: 18px;
 }
 
-/* DESKTOP MENU */
-
 .desktop-pages {
   display: flex;
   justify-content: center;
@@ -66,8 +64,6 @@
   color: #3cb8ff;
 }
 
-/* MOBILE */
-
 .res-icon {
   display: none;
 }
@@ -78,8 +74,6 @@
 .Pages {
   display: none;
 }
-
-/* ========================= */
 
 @media (max-width: 768px) {
   .Nav-bar {
@@ -95,6 +89,8 @@
 
   .res-icon {
     display: block;
+    position: fixed;
+    top: 30px;
     color: white;
     font-size: 32px;
     cursor: pointer;

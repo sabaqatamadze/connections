@@ -1,4 +1,6 @@
 import React from "react";
+import "./NavBar.css";
+
 import { Link } from "react-router-dom";
 import {
   FaInstagram,
@@ -8,7 +10,6 @@ import {
 } from "react-icons/fa";
 import { SlSocialFacebook } from "react-icons/sl";
 import { MdMailOutline } from "react-icons/md";
-import "./NavBar.css";
 
 function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
