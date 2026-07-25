@@ -3,91 +3,220 @@
   top: 20px;
   left: 50px;
   right: 50px;
-  z-index: 10;
+  z-index: 1000;
 }
 
-.Nav-bar .Links {
+/* TOP BAR */
+
+.Links {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.Nav-bar .Links .social {
+.social {
   display: flex;
-  gap: 15px;
+  gap: 18px;
 }
 
-.Nav-bar .Links .social a {
+.social a {
   color: white;
   font-size: 24px;
+  transition: 0.3s;
 }
 
-.Nav-bar .Links .contact {
+.social a:hover {
+  transform: scale(1.15);
+}
+
+.contact {
   display: flex;
-  flex-direction: row;
-  gap: 15px;
-  text-align: right;
+  gap: 20px;
   color: white;
-  align-items: center;
 }
 
-.Nav-bar .Links .contact p {
+.contact p {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 6px;
   margin: 0;
 }
 
-.Nav-bar .Links .contact .Icon {
-  color: white;
-  font-size: 20px;
+.Icon {
+  font-size: 18px;
 }
 
-.Nav-bar .Pages {
+/* DESKTOP MENU */
+
+.desktop-pages {
   display: flex;
   justify-content: center;
+  gap: 90px;
   margin-top: 20px;
-  gap: 100px;
-}
-.Nav-bar .Pages a {
-  color: white;
-  font-size: 25px;
-  text-decoration: none;
 }
 
-.Nav-bar .res-icon {
-  display: none;
+.desktop-pages a {
   color: white;
-  font-size: 24px;
-  cursor: pointer;
+  text-decoration: none;
+  font-size: 25px;
+  transition: 0.3s;
 }
+
+.desktop-pages a:hover {
+  color: #3cb8ff;
+}
+
+/* MOBILE */
+
+.res-icon {
+  display: none;
+}
+
+.overlay {
+  display: none;
+}
+.Pages {
+  display: none;
+}
+
+/* ========================= */
 
 @media (max-width: 768px) {
-  .Nav-bar .res-icon {
+  .Nav-bar {
+    left: 20px;
+    right: 20px;
+  }
+
+  .social,
+  .contact,
+  .desktop-pages {
+    display: none;
+  }
+
+  .res-icon {
     display: block;
-    font-size: 24px;
     color: white;
+    font-size: 32px;
+    cursor: pointer;
+    z-index: 1002;
   }
-  .Nav-bar .Pages,
-  .Nav-bar .Links .social,
-  .Nav-bar .Links .contact {
+
+  .overlay {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    z-index: 998;
+  }
+
+  .overlay.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .Pages {
+    position: fixed;
+    right: -320px;
+    top: 0;
+    width: 290px;
+    height: 100vh;
+    background: white;
+
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+
+    padding: 40px 30px;
+    box-sizing: border-box;
+
+    transition: 0.35s;
+    z-index: 999;
+
+    box-shadow: -8px 0 30px rgba(0, 0, 0, 0.2);
+  }
+
+  .Pages.active {
+    right: 0;
+  }
+
+  .menu-header {
+    text-align: center;
+    margin-bottom: 45px;
+  }
+
+  .menu-header h2 {
+    margin: 0;
+    color: #0d6efd;
+    font-size: 32px;
+  }
+
+  .menu-header span {
+    color: #777;
+    font-size: 15px;
+  }
+
+  .menu-links {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .menu-links a {
+    text-decoration: none;
+    color: #222;
+    font-size: 24px;
+    font-weight: 600;
+    transition: 0.25s;
+  }
+
+  .menu-links a:hover {
+    color: #0d6efd;
+    transform: translateX(8px);
+  }
+
+  .menu-bottom {
+    margin-top: auto;
+    border-top: 1px solid #eee;
+    padding-top: 25px;
+  }
+
+  .menu-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .menu-contact p {
+    display: flex;
     align-items: center;
-    background-color: white;
-    position: absolute;
-    width: 300px;
-    height: 60vh;
-    top: -800px;
-    left: -15px;
-    z-index: 10;
+    gap: 10px;
+    color: #666;
+    margin: 0;
+    font-size: 14px;
   }
-  .Nav-bar .Pages a,
-  .Nav-bar .Links .social a,
-  .Nav-bar .Links .contact {
-    color: black;
+
+  .menu-social {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px 0;
   }
-  .Nav-bar .Pages.active {
-    top: 50%;
+
+  .menu-social a {
+    color: #0d6efd;
+    font-size: 28px;
+    transition: 0.3s;
+  }
+
+  .menu-social a:hover {
+    transform: scale(1.2);
+  }
+
+  .menu-footer {
+    text-align: center;
+    color: #777;
+    font-size: 14px;
   }
 }

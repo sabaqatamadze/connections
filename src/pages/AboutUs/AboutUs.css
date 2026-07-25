@@ -250,6 +250,10 @@ body {
     flex-direction: column;
     gap: 30px;
   }
+  .polaroid-image {
+    width: 350px;
+    height: 300px;
+  }
 }
 
 footer {
